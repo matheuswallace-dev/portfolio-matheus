@@ -5,9 +5,8 @@ import { ProfileService } from '../services/profile.service';
   selector: 'app-footer',
   imports: [],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css'
+  styleUrl: './footer.component.css',
 })
 export class FooterComponent {
-
-  constructor(private profileService: ProfileService) { }
+  constructor(private profileService: ProfileService) {}
 }
